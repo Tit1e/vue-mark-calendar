@@ -1,14 +1,26 @@
 {
   "name": "vue-mark-calendar",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "lib": "vue-cli-service build --target lib --name vue-mark-calendar --dest lib packages/index.js"
   },
+  "main": "lib/vue-mark-calendar.umd.min.js",
+  "keywords": [
+    "vue",
+    "calendar",
+    "mark"
+  ],
+  "engines": {
+    "node": "v11.8.0"
+  },
+  "license": "MIT",
   "dependencies": {
     "core-js": "^2.6.5",
-    "vue": "^2.6.6"
+    "vue": "^2.6.6",
+    "vue-toast-component": "^2.0.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.5.0",

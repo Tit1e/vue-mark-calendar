@@ -6395,6 +6395,10 @@ vue-template-es2015-compiler@^1.9.0:
   version "1.9.1"
   resolved "http://registry.npm.taobao.org/vue-template-es2015-compiler/download/vue-template-es2015-compiler-1.9.1.tgz#1ee3bc9a16ecbf5118be334bb15f9c46f82f5825"
 
+vue-toast-component@^2.0.0:
+  version "2.0.0"
+  resolved "http://registry.npm.taobao.org/vue-toast-component/download/vue-toast-component-2.0.0.tgz#0dc879e543694c9283f4d5c9cf80911f622d9686"
+
 vue@^2.6.6:
   version "2.6.10"
   resolved "http://registry.npm.taobao.org/vue/download/vue-2.6.10.tgz#a72b1a42a4d82a721ea438d1b6bf55e66195c637"
