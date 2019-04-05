@@ -138,12 +138,14 @@ wh_content_item_tag {
 }
 .wh_content_item > .wh_isMark > .wh_item_date_text{
   background: #87e8de;
+  color: #fff;
 }
 .wh_content_item .wh_other_dayhide {
   color: #bfbfbf;
 }
 .wh_content_item .wh_want_dayhide {
   color: #bfbfbf;
+  background-color: #f5f7fa;
 }
 .wh_content_item .wh_isToday {
   color: #409eff;
