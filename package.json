@@ -1,6 +1,6 @@
 {
   "name": "vue-mark-calendar",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "private": false,
   "author": "Tit1e",
   "scripts": {
@@ -14,14 +14,11 @@
     "calendar",
     "mark"
   ],
-  "engines": {
-    "node": "v11.8.0"
-  },
   "license": "MIT",
   "dependencies": {
     "core-js": "^2.6.5",
     "vue": "^2.6.6",
-    "vue-toast-component": "^2.0.0"
+    "vue-mark-calendar": "^0.1.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.5.0",
