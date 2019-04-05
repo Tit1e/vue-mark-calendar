@@ -4,7 +4,7 @@
       ref="Calendar"
       :markDate="markDate"
       :markDateMore="markDateMore"
-      agoDayHide="1530115221"
+      futureDayHide="1554476157"
       @choseDay="clickDay"
       @changeMonth="changeDate"
       @isToday="isToday"
@@ -22,7 +22,9 @@
 </template>
 
 <script>
-import Calendar from '../../packages/index.js';
+import 'vue-mark-calendar/lib/vue-mark-calendar.css'
+// import Calendar from 'vue-mark-calendar'
+import Calendar from '../../packages/index.js'
 export default {
   data() {
     return {
@@ -56,13 +58,11 @@ export default {
     },
     clickDay(data) {
       console.log("选中了", data); //选中某天
-      this.$toast("选中了" + data);
     },
     clickToday(data) {
       console.log("跳到了本月今天", data); //跳到了本月
     },
     changeDate(data) {
-      // this.$toast("切换到的月份为" + data);
       console.log("左右点击切换月份", data); //左右点击切换月份
     },
     demo() {
@@ -110,8 +110,5 @@ h3 {
 .wh_container >>> .mark2 .wh_item_date_text{
   background-color: #ad4a95;
   color: #fff;
-}
-.wh_content_item > .wh_isMark {
-  background: red;
 }
 </style>
