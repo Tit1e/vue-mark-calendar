@@ -5,7 +5,7 @@
 
 ## 修改原因
 公司项目开发过程中需要用到不同日期的标记，发现了 [vue-calendar](https://github.com/zwhGithub/vue-calendar)，但是由于公司使用的是 element-ui ，因此配色上有较大的出入，这是修改的主要原因。
-还有一个原因是公司项目中用到的日期格式都是 '2019-04-01'，而插件中使用的格式是 '2019/04/01'，使用过程中会出现一层转换，并且插件返回的值月份日期小于 9 时不会添 0，因此做了一些调整。
+还有一个原因是公司项目中用到的日期格式都是 '2019-04-01'，而插件中使用的格式是 '2019/04/01'，使用过程中会出现一层转换，并且插件返回的值月份日期小于 9 时不会添 0，还有一些另外的定制化需求，因此做了一些调整。
 
 [在线 Demo](https://evolly.one/demos/vue-mark-calender/index.html)
 
@@ -90,6 +90,9 @@ this.$refs.Calendar.changeMonth('2018-01-01', false) //跳转后不选中 2018-0
 | futureDayHide | 某个日期以后的不允许点击 时间戳长度是 10 位 | String | - | 2554387200 |
 | sundayStart | 默认是周一开始 当是true的时候 是周日开始 | Boolean | true/false | false |
 | textTop | 日历头部的文字 | Array | - | [ '日','一', '二', '三', '四', '五', '六'] |
+| borderRadius | 整个日历块的圆角 | String | - | 4px |
+| showToday | 在日历中高亮今天的日期 | Boolean | true/false | true |
+| canChoose | 日历中日期能否选择 | Boolean | true/false | true |
 
 ## Events
 | 事件名称 | 说明 | 回调参数 |
