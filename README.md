@@ -7,7 +7,9 @@
 公司项目开发过程中需要用到不同日期的标记，发现了 [vue-calendar](https://github.com/zwhGithub/vue-calendar)，但是由于公司使用的是 element-ui ，因此配色上有较大的出入，这是修改的主要原因。
 还有一个原因是公司项目中用到的日期格式都是 '2019-04-01'，而插件中使用的格式是 '2019/04/01'，使用过程中会出现一层转换，并且插件返回的值月份日期小于 9 时不会添 0，因此做了一些调整。
 
-![](https://personal-1251959693.cos.ap-chengdu.myqcloud.com/2019-04-05-083054.png)
+[在线 Demo](https://evolly.one/demos/vue-mark-calender/index.html)
+
+![](https://personal-1251959693.cos.ap-chengdu.myqcloud.com/2019-04-05-084559.png)
 
 ## Install
 
