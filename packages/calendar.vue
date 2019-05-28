@@ -99,6 +99,7 @@ wh_content_item_tag {
   justify-content: center;
   align-items: center;
   border-radius: 50%;
+  box-sizing: border-box;
 }
 .wh_item_date_text{
   display: block;
