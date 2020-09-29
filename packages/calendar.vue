@@ -323,7 +323,7 @@ export default {
         let k = arr[i];
         k.chooseDay = false;
         const nowTime = k.date;
-        const t = new Date(nowTime).getTime() / 1000;
+        const t = new Date(`${nowTime} 00:00:00`).getTime() / 1000;
         //看每一天的class
         for (const c of markDateMore) {
           if (c.date === nowTime) {
